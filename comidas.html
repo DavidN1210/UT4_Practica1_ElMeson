@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restoran - Bootstrap Restaurant Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-xxl bg-white p-0">
+
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a> 
+                        <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menú</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="comidas.html" class="dropdown-item">Comidas</a>
+                                <a href="bebidas.html" class="dropdown-item">Bebidas</a>
+                            </div>
+                        </div>
+                        <a href="eventos.html" class="nav-item nav-link">Eventos</a>
+                        <a href="reserva.html" class="nav-item nav-link">Reservas</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+            <header class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Comidas</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Comidas</li>
+                        </ol>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Nuestra especialidad y nuevas adiciones-->
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp mb-5" data-wow-delay="0.1s">
+                    <h1 class="mb-5">Nuestra especialidad y novedades</h1>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-12">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Nuestra epecialidad
+                        </h5>
+                        <h1 class="mb-4">Paellas</h1>
+                        <p class="mb-4">En nuestro bar, la paella es considerado nuestro plato más destacado por
+                            nuestros clientes.</p>
+                        <p class="mb-4">Elaboramos cada paella con ingredientes frescos, arroz de primera calidad y el
+                            toque casero que nos caracteriza. Es
+                            perfecta para compartir con familia o amigos, y disponible bajo encargo para grupos o
+                            celebraciones</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt=""
+                                style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Paella mixta</span>
+                                    <span class="text-primary">10€/persona</span>
+                                </h5>
+                                <small class="fst-italic">Con carne, marisco y verduras frescas</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt=""
+                                style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Paella de Marisco</span>
+                                    <span class="text-primary">12€/persona</span>
+                                </h5>
+                                <small class="fst-italic">Langostinos, calamares, mejillones y el auténtico sabor del
+                                    Mediterráneo</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt=""
+                                style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Paella de Verduras</span>
+                                    <span class="text-primary">9€/persona</span>
+                                </h5>
+                                <small class="fst-italic">Ideal para vegetarianos. Con calabacín, pimiento, alcachofas y
+                                    azafrán natural.</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">¡Novedad en el menú!
+                        </h5>
+                        <h1 class="mb-4">Kebab/Durum</h1>
+                        <p class="mb-4">Ahora también puedes disfrutar de nuestros deliciosos kebabs y dürums,
+                            elaborados al momento con pan recién hecho, carne al estilo tradicional y salsa casera.
+                            Es una opción perfecta para quienes buscan algo diferente sin perder el sabor auténtico de
+                            siempre.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt=""
+                                style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Durum/Kebab de pollo con patatas</span>
+                                    <span class="text-primary">5,50€</span>
+                                </h5>
+                                <small class="fst-italic">Pollo asado, lechuga, tomate y salsa</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt=""
+                                style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Durum/Kebab de ternera con patatas</span>
+                                    <span class="text-primary">5,50€</span>
+                                </h5>
+                                <small class="fst-italic">Ternera marinada con verduras frescas y salsa</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt=""
+                                style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Durum/Kebab mixto con patatas</span>
+                                    <span class="text-primary">5,50€</span>
+                                </h5>
+                                <small class="fst-italic">Pollo y ternera con salsas variadas</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nuestra especialidad y nuevas adiciones FIN-->
+
+        <!-- Menu Start -->
+        <!-- BLOQUE COMPLETO DEL MENÚ (copiar y pegar en tu HTML) -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-4">Nuestra Carta</h1>
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal mb-4">
+                        El Mesón Menú
+                    </h5>
+                </div>
+
+                <!-- NAV PILLS (pestañas) -->
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+
+                        <!-- Hamburguesas -->
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill"
+                                href="#tab-hamburguesas">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Hamburguesas</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Ensaladas -->
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-ensaladas">
+                                <i class="fa fa-leaf fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Ensaladas</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Raciones -->
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-raciones">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Raciones</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Baguettes / Bocadillos -->
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-baguettes">
+                                <i class="fa fa-bread-slice fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Baguettes / Bocadillos</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Sándwiches -->
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-sandwiches">
+                                <i class="fa fa-cheese fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Sándwiches</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <!-- TAB CONTENT (contenido por pestaña) -->
+                    <div class="tab-content">
+
+                        <!-- ============================
+             SECCIÓN: HAMBURGUESAS
+             ============================ -->
+                        <div id="tab-hamburguesas" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+
+                                <!-- Ternera Normal -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ternera Normal</span><span class="text-primary">3,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Carne, lechuga y tomate</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Ternera Completa -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ternera Completa</span><span class="text-primary">4,50 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Con queso, huevo o bacon</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Ternera Especial -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ternera Especial</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Receta especial de la casa</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Ternera Doble -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ternera Doble</span><span class="text-primary">8,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Doble ración de carne</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pollo Normal -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pollo Normal</span><span class="text-primary">4,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Pechuga a la plancha</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pollo Completa -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pollo Completa</span><span class="text-primary">5,50 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Con extras: queso y bacon</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pollo Especial -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pollo Especial</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Salsa especial del chef</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Pollo Doble -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pollo Doble</span><span class="text-primary">8,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Doble pechuga</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> <!-- /end hamburguesas -->
+
+                        <!-- ============================
+             SECCIÓN: ENSALADAS
+             ============================ -->
+                        <div id="tab-ensaladas" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+
+                                <!-- Ensalada Mixta -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ensalada Mixta</span><span class="text-primary">8,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Lechuga, tomate, cebolla, atún y huevo</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Ensalada Ahumados -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ahumados</span><span class="text-primary">10,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Salmón, atún y otros ahumados</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Ensalada De la Casa -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>De la Casa</span><span class="text-primary">10,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Especialidad del chef</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> <!-- /end ensaladas -->
+
+                        <!-- ============================
+             SECCIÓN: RACIONES (COMPLETA)
+             ============================ -->
+                        <div id="tab-raciones" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+
+                                <!-- Gambones -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Gambones</span><span class="text-primary">16,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">A la plancha o al ajillo</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Calamares -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Calamares</span><span class="text-primary">12,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Frescos y crujientes</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Chipirones -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chipirones</span><span class="text-primary">13,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Pequeños y sabrosos</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Sepia -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sepia</span><span class="text-primary">13,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">A la plancha con alioli</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Rejos -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Rejos</span><span class="text-primary">12,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Especialidad frita</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Bravas o Ali-Oli -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bravas o Ali Oli</span><span class="text-primary">8,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Crujientes con salsas caseras</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Chips - Crispis -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chips - Crispis</span><span class="text-primary">10,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Para picar</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Queso -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Queso</span><span class="text-primary">10,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Tabla de quesos</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Queso en Tempura -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Queso en Tempura</span><span class="text-primary">10,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Tempura crujiente</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Magro -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Magro</span><span class="text-primary">8,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Magro de cerdo guisado</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Higaditos -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Higaditos</span><span class="text-primary">8,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Salteados con ajo</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Higadillas -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Higadillas</span><span class="text-primary">8,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Sabrosas y caseras</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Oreja -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Oreja</span><span class="text-primary">8,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Bien cocinada y sabrosa</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Jamón -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Jamón</span><span class="text-primary">10,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Cortado fino, servido con pan</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Morunos (unidad) -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Morunos (unidad)</span><span class="text-primary">2,50 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Sabroso pinchito</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Alas de Pollo (unidad) -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Alas de Pollo (unidad)</span><span class="text-primary">2,50
+                                                    €</span>
+                                            </h5>
+                                            <small class="fst-italic">Crujientes y sabrosas</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> <!-- /end raciones -->
+
+                        <!-- ============================
+             SECCIÓN: BAGUETTES / BOCADILLOS
+             ============================ -->
+                        <div id="tab-baguettes" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+
+                                <!-- Noruego -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Noruego</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Lechuga, tomate, anchoa, huevo y salmón</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Vegetal -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vegetal</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Lechuga, tomate, espárrago, pepinillo y
+                                                huevo</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Marinero -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Marinero</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Atún, tomate y pimiento morrón</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Calamares -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Calamares</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Clásico bocadillo de calamares</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Bacon con Queso -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bacon con Queso</span><span class="text-primary">4,50 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Bacon crujiente y queso fundido</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Olé -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Olé</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Lomo fresco, pimientos, jamón serrano y
+                                                tomate</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Tejano -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tejano</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Pechuga, lechuga y salsa César</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Albaceteño -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Albaceteño</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Chorizos fritos y pimientos</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Catalán -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Catalán</span><span class="text-primary">5,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Jamón a la plancha y tomate natural</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Español -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Español</span><span class="text-primary">4,50 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Tortilla de patata y tomate natural</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> <!-- /end baguettes -->
+
+                        <!-- ============================
+             SECCIÓN: SÁNDWICHES
+             ============================ -->
+                        <div id="tab-sandwiches" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+
+                                <!-- Mixto -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mixto</span><span class="text-primary">3,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Jamón york y queso a la plancha</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Vegetal -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vegetal</span><span class="text-primary">4,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Lechuga, tomate, huevo y atún</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Bacon -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bacon</span><span class="text-primary">4,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Tostado con bacon crujiente</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Doble -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Doble</span><span class="text-primary">6,00 €</span>
+                                            </h5>
+                                            <small class="fst-italic">Combinado doble de jamón y queso</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> <!-- /end sandwiches -->
+
+                    </div> 
+                </div> 
+            </div>
+        </div>
+        <!-- Menu End -->
+
+        <!-- Footer Start -->
+        <footer class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s"
+            style="margin-top:0; padding-top:40px;">
+            <div class="container py-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Enlaces útiles
+                        </h4>
+                        <a class="btn btn-link" href="about.html">Sobre Nosotros</a>
+                        <a class="btn btn-link" href="contact.html">Contacto</a>
+                        <a class="btn btn-link" href="reserva.html">Reserva</a>
+                        <a class="btn btn-link" href="eventos.html">Eventos</a>
+                        <a class="btn btn-link" href="comidas.html">Comidas</a>
+                        <a class="btn btn-link" href="bebidas.html">Bebidas</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>C. Palma, 1, 45840 La Puebla de
+                            Almoradiel, Toledo, España.</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>925178456</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>leyva32jl@yahoo.es & toresano94@hotmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Horario</h4>
+                        <h5 class="text-light fw-normal">Lunes - Miercoles y Viernes - Domingo</h5>
+                        <p>6AM - 00PM</p>
+                        <h5 class="text-light fw-normal">Jueves</h5>
+                        <p>Cerrado</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Cómo llegar</h4>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.2686618389384!2d-3.1154169206542965!3d39.59863000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd69b5435e2cd413%3A0x9c748d9900804857!2sCafe%20Bar%20El%20Mes%C3%B3n!5e0!3m2!1ses!2ses!4v1762279690567!5m2!1ses!2ses"
+                            width="80%" height="140" style="border:0; border-radius:10px;" allowfullscreen=""
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12 text-center mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Café Bar El Mesón</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

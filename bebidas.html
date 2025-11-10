@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Restoran - Bootstrap Restaurant Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-xxl bg-white p-0">
+
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Sobre nosotros</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menú</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="comidas.html" class="dropdown-item">Comidas</a>
+                                <a href="bebidas.html" class="dropdown-item">Bebidas</a>
+                            </div>
+                        </div>
+                        <a href="eventos.html" class="nav-item nav-link">Eventos</a>
+                        <a href="reserva.html" class="nav-item nav-link">Reservas</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+            <header class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Bebidas</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Bebidas</li>
+                        </ol>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Menu Start-->
+
+        <!-- ===================== -->
+        <!-- BLOQUE COMPLETO BEBIDAS -->
+        <!-- ===================== -->
+        <main class="container-xxl py-5" style="margin-bottom: 100px;">
+            <div class="container">
+
+                <!-- Título general de bebidas -->
+                <section class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-4">Nuestras Bebidas</h1>
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal mb-4">El Mesón Bebidas</h5>
+                </section>
+
+                <!-- Tabs de bebidas -->
+                <section class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill"
+                                href="#tab-cervezas">
+                                <i class="fa fa-beer fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Cervezas</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-refrescos">
+                                <i class="fa fa-glass-whiskey fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Refrescos</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-vinos">
+                                <i class="fa fa-wine-glass-alt fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Vinos</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-cafes">
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Cafés</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill"
+                                href="#tab-copas">
+                                <i class="fa fa-cocktail fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">El Mesón</small>
+                                    <h6 class="mt-n1 mb-0">Copas</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+
+                        <!-- ===== CERVEZAS ===== -->
+                        <section id="tab-cervezas" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caña</span><span class="text-primary">1,80 €</span></h5>
+                                            <small class="fst-italic">Tirada del grifo</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Doble</span><span class="text-primary">2,50 €</span></h5>
+                                            <small class="fst-italic">El doble de sabor</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tercio</span><span class="text-primary">3,00 €</span></h5>
+                                            <small class="fst-italic">Cerveza en botella</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2"><span>Sin
+                                                    Alcohol</span><span class="text-primary">2,50 €</span></h5>
+                                            <small class="fst-italic">Refrescante y ligera</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ===== REFRESCOS ===== -->
+                        <section id="tab-refrescos" class="tab-pane fade p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Coca-Cola</span><span class="text-primary">2,50 €</span></h5>
+                                            <small class="fst-italic">Clásica o Zero</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2"><span>Fanta
+                                                    Naranja</span><span class="text-primary">2,50 €</span></h5>
+                                            <small class="fst-italic">Refrescante sabor cítrico</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2"><span>Fanta
+                                                    Limón</span><span class="text-primary">2,50 €</span></h5>
+                                            <small class="fst-italic">Ideal para el verano</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Nestea</span><span class="text-primary">2,50 €</span></h5>
+                                            <small class="fst-italic">Té frío con limón</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Agua</span><span class="text-primary">1,50 €</span></h5>
+                                            <small class="fst-italic">Botella 50 cl</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ===== VINOS ===== -->
+                        <section id="tab-vinos" class="tab-pane fade p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2"><span>Copa de
+                                                    Vino Tinto</span><span class="text-primary">2,50 €</span></h5>
+                                            <small class="fst-italic">De la casa</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2"><span>Copa de
+                                                    Vino Blanco</span><span class="text-primary">2,50 €</span></h5>
+                                            <small class="fst-italic">Aromático y fresco</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2"><span>Botella
+                                                    de Vino</span><span class="text-primary">10,00 €</span></h5>
+                                            <small class="fst-italic">Tinto o blanco</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ===== CAFÉS ===== -->
+                        <section id="tab-cafes" class="tab-pane fade p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2"><span>Café
+                                                    Solo</span><span class="text-primary">1,50 €</span></h5>
+                                            <small class="fst-italic">Espresso intenso</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2"><span>Café con
+                                                    Leche</span><span class="text-primary">1,80 €</span></h5>
+                                            <small class="fst-italic">Clásico desayuno</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2"><span>Café
+                                                    Cortado</span><span class="text-primary">1,60 €</span></h5>
+                                            <small class="fst-italic">Café con un toque de leche</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ===== COPAS ===== -->
+                        <section id="tab-copas" class="tab-pane fade p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ginebra</span><span class="text-primary">6,00 €</span></h5>
+                                            <small class="fst-italic">Servida con tónica y limón</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ron</span><span class="text-primary">6,00 €</span></h5>
+                                            <small class="fst-italic">Puedes elegir entre Naranja o Coca-Cola</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="w-100 ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Whisky</span><span class="text-primary">6,00 €</span></h5>
+                                            <small class="fst-italic">Con hielo o combinado</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div><!-- tab-content -->
+                </section><!-- tab-class -->
+
+            </div><!-- container -->
+        </main>
+
+        <!-- ===================== -->
+        <!-- FIN BLOQUE BEBIDAS -->
+        <!-- ===================== -->
+
+
+
+        <!-- Menu End -->
+
+        <!-- Footer Start -->
+        <footer class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s"
+            style="margin-top:0; padding-top:40px;">
+            <div class="container py-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Enlaces útiles
+                        </h4>
+                        <a class="btn btn-link" href="about.html">Sobre Nosotros</a>
+                        <a class="btn btn-link" href="contact.html">Contacto</a>
+                        <a class="btn btn-link" href="reserva.html">Reserva</a>
+                        <a class="btn btn-link" href="eventos.html">Eventos</a>
+                        <a class="btn btn-link" href="comidas.html">Comidas</a>
+                        <a class="btn btn-link" href="bebidas.html">Bebidas</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>C. Palma, 1, 45840 La Puebla de
+                            Almoradiel, Toledo, España.</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>925178456</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>leyva32jl@yahoo.es & toresano94@hotmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Horario</h4>
+                        <h5 class="text-light fw-normal">Lunes - Miercoles y Viernes - Domingo</h5>
+                        <p>6AM - 00PM</p>
+                        <h5 class="text-light fw-normal">Jueves</h5>
+                        <p>Cerrado</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Cómo llegar</h4>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.2686618389384!2d-3.1154169206542965!3d39.59863000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd69b5435e2cd413%3A0x9c748d9900804857!2sCafe%20Bar%20El%20Mes%C3%B3n!5e0!3m2!1ses!2ses!4v1762279690567!5m2!1ses!2ses"
+                            width="80%" height="140" style="border:0; border-radius:10px;" allowfullscreen=""
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12 text-center mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Café Bar El Mesón</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
